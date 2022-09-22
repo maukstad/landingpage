@@ -1,0 +1,108 @@
+/* style.css */
+
+body {
+    margin: 0px;
+}
+
+.page {
+    display: flex;
+    flex-direction: column;
+    height: 1000px;
+
+
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #1f2937;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.logo {
+    flex: 0 0 auto;
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.linkscontainer {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.links {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    flex: 1;
+    font-size: 18px;
+    gap: 25px;
+
+}
+
+.link {
+   display: flex;
+   
+}
+
+a {
+    text-decoration: none;
+    color: #e5e7eb;
+
+
+}
+
+.hero {
+    display: flex;
+    background-color: #1f2937;
+    padding: 50px;
+    
+}
+
+.herotext {
+    width: 50%;
+}
+
+.mainherotext {
+    display: flex;
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;   
+
+}
+
+.subherotext {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+button {
+    background-color: #3882f6;
+    border-radius: 5px;
+    border: none;
+    color: #e5e7eb;
+    padding-left: 5%;
+    padding-right: 5%;
+    
+}
+
+.heroimage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+
+.info1text {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+    padding: 20px;
+}
